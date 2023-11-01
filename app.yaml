@@ -2,10 +2,10 @@
 runtime: php55
 
 handlers:
-- url: /styles
+- url: assets/styles/style.css
   static_dir: styles
 
-- url: /image/(.*\.(gif|png|jpg))
+- url: assets/image/(.*\.(gif|png|jpg))
   static_files: image/\1
   upload: image/(.*\.(gif|png|jpg))
 
