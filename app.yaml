@@ -3,7 +3,7 @@ runtime: php5
 
 handlers:
 - url: /styles
-static_dir: style
+static_dir: styles
 
 - url: /images/(/*\.(gif|png|jpg))
 static_files: images/\1
