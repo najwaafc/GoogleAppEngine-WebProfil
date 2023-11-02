@@ -3,7 +3,8 @@ runtime: php55
 
 handlers:
 - url: /styles
-  static_dir: assets/styles
+  static_dir: assets/styles/style.css
+  upload: assets/styles/style.css
 
 - url: /image/(.*\.(gif|png|jpg))
   static_files: assets/image/\1
